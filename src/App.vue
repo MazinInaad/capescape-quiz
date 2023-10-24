@@ -3,7 +3,7 @@
 		<h1>🦾 CapEscape Quiz 🦾</h1>
 		<section class="loading" v-if="!quizStarted">
 			<p>I see you found the tiny ducklings! For this round, you will be answering
-			<span style="color: rgb(240, 230, 140);">7 test automation related questions.</span></p>
+			<span style="color: rgb(240, 230, 140);">5 tech related questions.</span></p>
 			<br>
 			<p>In order for you to retrieve the number for your lock, you will need to pass
 			<span style="color: rgb(240, 230, 140);">AT LEAST 3 questions</span>
@@ -73,82 +73,60 @@ import { ref, computed } from 'vue'
 
 const questions = ref([
   {
-	question: "1) Which of the following is a commonly used programming language for test automation?",
+	question: "1) Which of the following programming languages is primarily associated with the development of artificial intelligence and machine learning applications?",
 	answer: 1,
 	options: [
-		'HTML',
 		'Java',
-		'XML',
-		'CSS'
+		'Python',
+		'C++',
+		'Ruby'
 	],
 	selected: null
   },
    {
-	   question: "2) Which one of these is a valid CSS selector?",
+	   question: "2) What is the name of the British computer scientist who invented the World Wide Web in 1989?",
 		answer: 0,
 		options: [
-			'#search-toggle-btn',
-			"//button[@id='search-toggle-btn']",
-			'id=search-toggle-btn',
-			'class=search-toggle-btn'
+			'Tim Berners-Lee',
+			'Alan Turing',
+			'Vint Cerf',
+			'Larry Page'
 		],
 		selected: null
 	},
 	{
-		question: "3) When is it impossible to use test automation?",
+		question: "3) What is the name of the oldest programming language still in use?",
 		answer: 2,
 		options: [
-			'When it\'s monday morning.',
-			'When the functionality only works on mobile devices.',
-			'When the functionality is protected by a captcha.',
-			'When the functionality does not have a user interface'
+			'Matlab',
+			'Ada',
+			'FORTRAN',
+			'COBOL'
 		],
 		selected: null
 	},
 	{
-		question: "4) Which of the following is the most efficient way to locate the 'Search' button element on a web page using Selenium?",
-		answer: 2,
-		options: [
-			'By class name',
-			'By tag name',
-			'By CSS selector',
-			'By XPath expression'
-		],
-		selected: null
-	},
-	{
-		question: "5) Which of the following languages is Robot Framework written in?",
+		question: "4) What kind of malware is designed to take advantage of a security hole before it is known?",
 		answer: 0,
 		options: [
-			'Python',
-			'Java',
-			'C++',
-			'Ruby'
+			'Zero-day exploit',
+			'Virus',
+			'Ransomware',
+			'Trojan Horse'
 		],
 		selected: null
 	},
 	{
-		question: "6) Which of the following test automation tools can be used as a test library in Robot Framework? ",
+		question: "5) Which was the first internet search engine in the world?",
 		answer: 3,
 		options: [
-			'Selenium',
-			'Appium',
-			'JUnit',
-			'All of the above'
+			'Google',
+			'Bing',
+			'Yahoo',
+			'Archie'
 		],
 		selected: null
 	},
-	{
-		question: "7) Which of the following programming languages is not supported by Playwright?",
-		answer: 2,
-		options: [
-			'JavaScript',
-			'Python',
-			'Java',
-			'TypeScript'
-		],
-		selected: null
-	}
 ])
 
 const quizStarted = ref(false)
