@@ -3,7 +3,7 @@
 		<h1>🦾 CapEscape Quiz 🦾</h1>
 		<section class="loading" v-if="!quizStarted">
 			<p>I see you found the tiny ducklings! For this round, you will be answering
-			<span style="color: rgb(240, 230, 140);">5 tech related questions.</span></p>
+			<span style="color: rgb(240, 230, 140);">5 Java related questions.</span></p>
 			<br>
 			<p>In order for you to retrieve the number for your lock, you will need to pass
 			<span style="color: rgb(240, 230, 140);">AT LEAST 3 questions</span>
