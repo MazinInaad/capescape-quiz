@@ -73,57 +73,57 @@ import { ref, computed } from 'vue'
 
 const questions = ref([
   {
-	question: "1) Which of the following programming languages is primarily associated with the development of artificial intelligence and machine learning applications?",
+	question: "1) In Java, what is a 'byte code'?",
 	answer: 1,
 	options: [
-		'Java',
-		'Python',
-		'C++',
-		'Ruby'
+		'A type of coffee enjoyed by programmers',
+		'A set of instructions for the Java Virtual Machine (JVM)',
+		'A form of Morse code used in programming',
+		'A tasty Java dessert'
 	],
 	selected: null
   },
    {
-	   question: "2) What is the name of the British computer scientist who invented the World Wide Web in 1989?",
-		answer: 0,
-		options: [
-			'Tim Berners-Lee',
-			'Alan Turing',
-			'Vint Cerf',
-			'Larry Page'
-		],
-		selected: null
-	},
-	{
-		question: "3) What is the name of the oldest programming language still in use?",
+	   question: "2) What does the 'synchronized' keyword do in Java?",
 		answer: 2,
 		options: [
-			'Matlab',
-			'Ada',
-			'FORTRAN',
-			'COBOL'
+			'Keeps your code secret',
+			'Makes your code run faster',
+			'Prevents multiple threads from accessing the same code simultaneously',
+			'Creates a synchronized dance party'
 		],
 		selected: null
 	},
 	{
-		question: "4) What kind of malware is designed to take advantage of a security hole before it is known?",
-		answer: 0,
+		question: "3) Which of the following is not a Java operator?",
+		answer: 1,
 		options: [
-			'Zero-day exploit',
-			'Virus',
-			'Ransomware',
-			'Trojan Horse'
+			'&& (logical AND)',
+			'~~ (double tilde)',
+			'^ (bitwise XOR)',
+			'?: (conditional or ternary)'
 		],
 		selected: null
 	},
 	{
-		question: "5) Which was the first internet search engine in the world?",
+		question: "4) What do Java developers say when they're debugging their code?",
+		answer: 2,
+		options: [
+			'Oh no, not again!',
+			'Keep calm and code on',
+			'May the code be with you',
+			'Java, I choose you!'
+		],
+		selected: null
+	},
+	{
+		question: "5) If a Java developer is stuck in traffic, what do they blame?",
 		answer: 3,
 		options: [
-			'Google',
-			'Bing',
-			'Yahoo',
-			'Archie'
+			'Construction',
+			'Google Maps',
+			'Poorly optimized roads',
+			'Insufficient parallel lanes'
 		],
 		selected: null
 	},
