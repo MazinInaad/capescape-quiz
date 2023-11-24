@@ -3,7 +3,7 @@
 		<h1>🦾 CapEscape Quiz 🦾</h1>
 		<section class="loading" v-if="!quizStarted">
 			<p>I see you found the tiny ducklings! For this round, you will be answering
-			<span style="color: rgb(240, 230, 140);">5 Java related questions.</span></p>
+			<span style="color: rgb(240, 230, 140);">5 tech related questions.</span></p>
 			<br>
 			<p>In order for you to retrieve the number for your lock, you will need to pass
 			<span style="color: rgb(240, 230, 140);">AT LEAST 3 questions</span>
@@ -73,57 +73,57 @@ import { ref, computed } from 'vue'
 
 const questions = ref([
   {
-	question: "1) In Java, what is a 'byte code'?",
+	question: "1) Which of the following programming languages is primarily associated with the development of artificial intelligence and machine learning applications?",
 	answer: 1,
 	options: [
-		'A type of coffee enjoyed by programmers',
-		'A set of instructions for the Java Virtual Machine (JVM)',
-		'A form of Morse code used in programming',
-		'A tasty Java dessert'
+		'Java',
+		'Python',
+		'C++',
+		'Ruby'
 	],
 	selected: null
   },
    {
-	   question: "2) What does the 'synchronized' keyword do in Java?",
+	   question: "2) What is the name of the British computer scientist who invented the World Wide Web in 1989?",
+		answer: 0,
+		options: [
+			'Tim Berners-Lee',
+			'Alan Turing',
+			'Vint Cerf',
+			'Larry Page'
+		],
+		selected: null
+	},
+	{
+		question: "3) What is the name of the oldest programming language still in use?",
 		answer: 2,
 		options: [
-			'Keeps your code secret',
-			'Makes your code run faster',
-			'Prevents multiple threads from accessing the same code simultaneously',
-			'Creates a synchronized dance party'
+			'Matlab',
+			'Ada',
+			'FORTRAN',
+			'COBOL'
 		],
 		selected: null
 	},
 	{
-		question: "3) Which of the following is not a Java operator?",
-		answer: 1,
+		question: "4) What kind of malware is designed to take advantage of a security hole before it is known?",
+		answer: 0,
 		options: [
-			'&& (logical AND)',
-			'~~ (double tilde)',
-			'^ (bitwise XOR)',
-			'?: (conditional or ternary)'
+			'Zero-day exploit',
+			'Virus',
+			'Ransomware',
+			'Trojan Horse'
 		],
 		selected: null
 	},
 	{
-		question: "4) What do Java developers say when they're debugging their code?",
-		answer: 2,
-		options: [
-			'Oh no, not again!',
-			'Keep calm and code on',
-			'May the code be with you',
-			'Java, I choose you!'
-		],
-		selected: null
-	},
-	{
-		question: "5) If a Java developer is stuck in traffic, what do they blame?",
+		question: "5) Which was the first internet search engine in the world?",
 		answer: 3,
 		options: [
-			'Construction',
-			'Google Maps',
-			'Poorly optimized roads',
-			'Insufficient parallel lanes'
+			'Google',
+			'Bing',
+			'Yahoo',
+			'Archie'
 		],
 		selected: null
 	},
